@@ -3,7 +3,7 @@
   "id": "vanillagraphicssettings",
   "version": "${version}",
   "name": "vanillaGraphicsSettings",
-  "description": "Automatically opens Sodium's built-in classic graphics settings view.",
+  "description": "Automatically opens Sodium's classic graphics settings screen for the stable legacy-compatible range.",
   "authors": ["chubur"],
   "contact": {},
   "license": "All-Rights-Reserved",
@@ -13,7 +13,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.14.21",
-    "minecraft": ">=1.20.1 <=26.1.1",
+    "minecraft": ">=1.20.1 <=26.1.2",
     "sodium": "*"
   }
 }
