@@ -1,0 +1,8 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "org.chubur.vanillagraphicssettings.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": ["SodiumVideoSettingsMixin"],
+  "injectors": {"defaultRequire": 0}
+}

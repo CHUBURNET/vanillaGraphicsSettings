@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated / local runtime
+run/
+local.properties
+
+# Fabric / Loom caches
+.loom/
+
+# Jar outputs (keep source builds local)
+*.jar
+
+# Logs
+logs/
+*.log

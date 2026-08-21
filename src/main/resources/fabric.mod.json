@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillagraphicssettings",
+  "version": "${version}",
+  "name": "vanillaGraphicsSettings",
+  "description": "Automatically opens Sodium's built-in classic graphics settings view.",
+  "authors": ["chubur"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "mixins": [
+    {"config": "vanillagraphicssettings.client.mixins.json", "environment": "client"}
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": ">=1.20.1 <=26.1.1",
+    "sodium": "*"
+  }
+}
